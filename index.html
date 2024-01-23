@@ -42,16 +42,16 @@
    </head>
 
    <body class="font-manrope">
-      <header class="max-w-[1170px] m-auto">
+      <header class="lg:max-w-[1170px] mx-auto px-5">
          <!-- Navigation bar -->
          <nav class="container mx-auto nav-section my-12">
-            <div class="navbar bg-base-100">
+            <div class="navbar bg-base-100 p-0">
                <div class="navbar-start">
                   <div class="dropdown">
                      <div
                         tabindex="0"
                         role="button"
-                        class="btn btn-ghost lg:hidden"
+                        class="btn btn-ghost pl-0 lg:hidden"
                      >
                         <svg
                            xmlns="http://www.w3.org/2000/svg"
@@ -81,7 +81,8 @@
                         <li><a>Contact</a></li>
                      </ul>
                   </div>
-                  <a class="gap-0 font-extrabold btn btn-ghost text-4xl p-0"
+                  <a
+                     class="gap-0 font-extrabold btn btn-ghost text-2xl lg:text-4xl p-0"
                      >Hockey <span class="text-red-500">’</span>s</a
                   >
                </div>
@@ -133,9 +134,9 @@
                      ></a>
                   </div>
                   <span
-                     class="badge lg:absolute rounded-xl flex flex-col items-start gap-4 sm:hidden lg:block bg-[#131318] p-8 lg:w-[502px] h-auto border-none bottom-10 right-10"
+                     class="badge lg:absolute rounded-xl flex flex-col items-start gap-2 lg:gap-4 sm:hidden lg:block bg-[#131318] p-4 lg:p-8 lg:w-[502px] h-auto border-none bottom-10 right-10"
                   >
-                     <h3 class="text-2xl text-white font-extrabold">
+                     <h3 class="text-lg lg:text-2xl text-white font-extrabold">
                         Meet all the heroes from the field
                      </h3>
                      <p class="text-gray-400">
@@ -165,9 +166,9 @@
                      ></a>
                   </div>
                   <span
-                     class="badge lg:absolute rounded-xl flex flex-col items-start gap-4 sm:hidden lg:block bg-[#131318] p-8 lg:w-[502px] h-auto border-none bottom-10 right-10"
+                     class="badge lg:absolute rounded-xl flex flex-col items-start gap-2 lg:gap-4 sm:hidden lg:block bg-[#131318] p-4 lg:p-8 lg:w-[502px] h-auto border-none bottom-10 right-10"
                   >
-                     <h3 class="text-2xl text-white font-extrabold">
+                     <h3 class="text-lg lg:text-2xl text-white font-extrabold">
                         Meet all the heroes from the field
                      </h3>
                      <p class="text-gray-400">
@@ -180,7 +181,24 @@
             </div>
          </section>
       </header>
-      <body></body>
+      <main class="max-w-[1170px] mx-auto">
+         <!-- Professional Hockey Club -->
+         <section
+            class="container w-[335px] lg:w-[1170px] mx-auto lg:my-24 p-8 border-y-2 border-dashed"
+         >
+            <div
+               class="container text-center max-w-[292px] lg:max-w-[607px] mx-auto"
+            >
+               <h3 class="text-2xl lg:text-4xl font-extrabold mb-6">
+                  Professional Hockeys Club
+               </h3>
+               <p class="text-gray-500 text-sm lg:text-base">
+                  Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+                  turpis placerat dolor. Purus urna in sit nullam proin.
+               </p>
+            </div>
+         </section>
+      </main>
       <footer></footer>
    </body>
 </html>
